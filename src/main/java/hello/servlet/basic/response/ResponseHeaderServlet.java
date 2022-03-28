@@ -30,6 +30,8 @@ public class ResponseHeaderServlet extends HttpServlet {
         cookie(resp);
         redirect(resp);
 
+
+
         PrintWriter writer = resp.getWriter();
         writer.println("OK");
     }
