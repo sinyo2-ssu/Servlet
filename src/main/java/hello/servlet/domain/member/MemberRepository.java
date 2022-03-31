@@ -20,7 +20,7 @@ public class MemberRepository {
     }
 
     public Member save(Member member){
-        member.setId(++sequence);
+        member.setId(++sequence); // ID 자동증가
         store.put(member.getId(), member);
         return member;
     }
