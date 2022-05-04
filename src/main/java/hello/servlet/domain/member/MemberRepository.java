@@ -25,7 +25,6 @@ public class MemberRepository {
         return member;
     }
 
-    
     public Member findById(Long id){
         return store.get(id);
     }
